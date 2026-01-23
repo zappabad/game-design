@@ -24,3 +24,4 @@ You don't have to make decisions in the pre-game because you don't get punished 
 
 That is: **you are rewarded by delaying decisions** you make in terms of exploration until you absolutely have to decide. What dictates when you make these decisions is -- ultimately -- whether you will lose the game before making them or not.
 
+test
