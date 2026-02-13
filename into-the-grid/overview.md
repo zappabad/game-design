@@ -24,17 +24,20 @@ You don't have to make decisions in the pre-game because you don't get punished 
 
 That is: **you are rewarded by delaying decisions** you make in terms of exploration until you absolutely have to decide. What dictates when you make these decisions is -- ultimately -- whether you will lose the game before making them or not.
 
+Another way to put it: you draft cards because you lose if you don't.
+
 ### The graph of ITG
 
 The graph of ITG is very unlike STS. It is way more open, which (in my opinion) might give the players too much freedom to optimize navigation in such a way as to trivialize content no matter how you slice it (I'll elaborate more in the next paragraphs).
 
-In STS, every floor you climb directly increases the difficulty of the next encounter. This, in turn, makes adding cards to the deck to solve problems you have **now** be a constant thing. You'd love to not add cards to your deck and remove as many as possible just as much, but you can't because you're under threat of death right now.
+In STS, every floor you climb directly increases the difficulty of the next encounter. This, in turn, makes adding cards to the deck to solve problems you have **now** a constant thing you care about. You'd love to not add cards to your deck and remove as many as possible just as much, but you can't because you're under threat of death _right now._
 
 In contrast, in ITG you have increments of difficulty **under the player's control.** That means the player can figure out how strong they are, and if they think themselves able to beat encounters they can go ahead and grind all of them, all at the same difficulty level, and just blast through without any deck manipulation needed. Rinse and repeat until you feel like you need something else.
 
-In practice, ITG plays out like 
+With rewards being accessible in an uncontrollable way, you basically put yourself in a pickle as the balance team:
 
-One thing that leads to this is what I'll discuss below.
+* You can't know whether or not the player is strong enough to beat this content, so you can't make it harder;
+* If the player found rewards before facing problems, you just trivialized decision making until the alarm rises again.
 
 ## Encounter balance
 
@@ -49,9 +52,35 @@ If that's the case, then you are presented with two choices:
 
 I'd prefer **2.** over **1.,** but **2.** only shifts the deckbuilding considerations from "what do I need to be able to beat combats in this alarm level" to "what do I need to be able to beat combats in the next alarm level".
 
+In spirit, option **2.** is STS. However, STS makes it feel okay because you are **always** in this "just not good enough to stop thinking and just beat everything" until way later in the game. Meanwhile, in ITG, you have spikes of deckbuilding considerations followed by 4-8 encounters of the same difficulty level.
 
 ### Static enemy pool
 
+The enemy pool being the same is obviously bad, everyone knows that. I just want to point out that adding more variety while not having separated pools for separated moments might just create an even more unfun experience in combat.
+
+That's because if there is zero predictability in terms of "what problems am I trying to solve in deckbuilding" because of the fact that enemies are simply too diverse, then any decision becomes meaningless, as you have just a huge amount of possible enemies.
+
+The best way to solve this, in my opinion, is to have different pools of enemies at different points in time **OR** space. Hear me out:
+
+* STS already solves this problem with different pools in time. You're doing nothing new with having layers have different sorts of enemies that are all connected by some thread.
+* STS does this with Acts and mini-bosses/enemies. In Act 2, you will see many more multi-attack enemies and bosses, while in Act 3 the mini-bosses are all about asking you to either burst fast, or be consistent in generating tons of block or damage turn-by-turn.
+
+In ITG we have the option of having _zones_ of enemies, where each zone houses a specific pool of sentinels. Now the player can choose to build a deck that beats _this_ particular zone (because the loot there is appealing to them), at the cost of not having a good enough deck to beat _that_ zone.
+
 ### Card decompiling
 
-10 starting cards has a lot of predictability. that goes out of the window as soon as you hit a single decompile or add a few cards. the issue is how fast it happens in ITG (it literally happens in the starting deck)
+Card exhaustion (as per STS nomenclature) is a good way of balancing:
+
+* strong effects that you don't want to be used more than once (of course). This is the natural way to think about putting that keyword on a card.
+* the big deck problem. I will take some time to explain what I mean by big deck _problem:_
+
+When you have a big deck (20+ cards), you risk running more and more into the "this card is useless on this turn." That is, you don't have predictability of draws, leading to turns where you are extremely punished for drawing "the wrong half" of the deck for what the enemy is going to do now.
+
+This is balanced by building a balanced deck and slowly removing starter cards (more accessible in STS than ITG). In STS, what ends up happening is that you have a lot of cards that exhaust during the natural flow of the fight (playing powers counts toward this!), and you end the fight with a manageable deck size.
+
+Right now in ITG you are not incentivized to run a big deck. You are _also_ not incentivized to draft powers (protocols) just because of how overcosted they are for what they give. A protocol that gives 3 vim costing 2 is nonsensical when there are attacks that achieve the same rate while progressing the fight, and this effect is even more exacerbated by the fact that you naturally run small decks while drawing a lot, and thus can play the vim generator attacks once every one-and-a-half turns.
+
+### Card design space
+
+The design of cards in ITG are very similar to one another. We have too many cards that are "deal damage plus small benefit" while not having enough cards that are "mostly untangible benefits."
+
