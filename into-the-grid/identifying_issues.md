@@ -14,7 +14,7 @@ I'd like to first give a definition I'll be using for the rest of the article.
 
 **Definition 2.** A _card_ is said to be **more of a payoff card** the more it gets powerful as a consequence of earlier cards being played.
 
-**Definition 3.** A _quest_ is a sequence of enablers you have to play in order to get to a big enough payoff. A quest being too easy means you get a big enough payoff without needing to go out of your way in order to fulfill it.
+**Definition 3.** A _quest_ is a sequence of plays you have to make in order to generate a big enough payoff. A quest being too easy means you get a big enough payoff without needing to go out of your way in order to fulfill it. That is, you get rewarded for doing things you already want to do.
 
 Of course this definition is hard to exactly set in stone, but I'll be operating under these definitions more or less.
 
@@ -22,7 +22,7 @@ Of course this definition is hard to exactly set in stone, but I'll be operating
 
 **Problem:** Right now in ITG you don't have enough hard questions thrown at you in terms of "do I need more enablers or more payoffs?".
 
-This is because your commands can fill in for your cards. Say you have a great card that just needs to be discarded. In that case, simply use the Darwin discard command, and you'll have it trigger almost always if you need it. You don't need to add a discard enabler to do it.
+This is because your **commands** can fill in for your cards. Say you have a great card that just needs to be discarded. In that case, simply use the Darwin discard command, and you'll have it trigger almost always if you need it. You don't need to add a discard enabler to do it.
 
 The same can be said for Ursa. Cards that care about your VIM are enabled by simply playing normally, which leads to a trivial _quest._
 
