@@ -4,6 +4,17 @@ My philosophy is that, with peripherals being "enemies that are never required t
 
 All enemies also have a passive.
 
+#### Do's and Don'ts of Peripherals
+
+* They **DO** buff the main enemy, giving more inevitability to the fight.
+* They **DON'T** do things that are hard to evaluate the value of.
+* They **DO** debuff the player in specific ways (meaning not general like "minus damage/block"), taxing specific decks moreso than others. Think "cards now cost 2 life instead of resources".
+* They **DO** have "biome specificity," meaning peripherals from the same biome are sometimes shared between many enemies in that biome.
+* They **DO** have predictable patterns, often doing the same thing every other turn.
+* They **DON'T** necessarily produce good outcomes if dealt with. It is often the case, but not a rule.
+
+With this frame of peripherals being -- literally -- extensions responsible for one specific thing that can be reused throughout multiple encounters we start entering a design space that is based on designing fun building blocks and then just playing tetris and combining them together. "Get the arm from that guy, thrusters from that other guy, make them come from Industry instead of Tech and you've built a new enemy out of parts".
+
 ## Cluster Biomes
 
 The pools of enemies are based on a "cluster biome," with each biome having an overarching theme it tackles.
