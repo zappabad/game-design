@@ -48,4 +48,5 @@ This is basically what the Ironclad does with the "Add Wounds to your deck" card
 
 #### **Example Cards**
 
-* _[Token]_ **Riches.** 0 Cost. Gain 3 VIM. 
+* _[Token]_, **Riches.** 0 Cost. Gain 3 VIM.
+
