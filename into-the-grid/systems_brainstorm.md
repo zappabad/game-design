@@ -28,7 +28,7 @@ This is basically what the Ironclad does with the "Add Wounds to your deck" card
 
 #### **Example Cards**
 
-* _[Token]_ **Tired.** Can't be played. Attacks deal 5 less damage while this is in hand. Exhaust at the end of your turn. 
+* _[Token]_ **Tired.** Can't be played. Attacks deal 5 less damage while this is in hand. Exhaust at the end of your turn.
 * _[Common]_ Deal 50 damage. Add a Tired onto your Discard pile.
 * _[Common]_ Deal 20 damage to all enemies. They gain +5 healing.
 * _[Common]_ Gain 60 barrier. Add 2 Tired to your Discard pile.
