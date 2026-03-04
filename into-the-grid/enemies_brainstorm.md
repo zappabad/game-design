@@ -31,6 +31,19 @@ Through these clusters we are basically coupling a few rooms together in a theme
 
 Either way we are making exploration more engaging and thought-inducing because of the natural escalation of enemies inside a cluster. **A cluster is now a mini-act.**
 
+With these, I believe we can create a more controllable exploration graph. You can hide important nodes deep in a biome because the biome itself is more linear in its progression.
+
+For instance:
+
+* Mod Biome Room 1 has two necessary fights and one optional fight guarding a protocol only node. Only has one exit to Room 2.
+* Room 2 has all optional fights, but each node is a specific benefit like extra health, driver, extra mana, etc. These fights are harder because of a watcher in the room that says "add 3 peripherals to each encounter"
+* Room 3 has a miniboss guarding a command node (node that gives the player an unlockable command for the run)
+
+the biome has a distinct floor, theme, watchers and nodes inside it, and it branches from the "main path".
+
+You could also have an optional biome where the final node is "layer boss starts the fight with 3 stun" or stuff like that. You can have challenge biomes where the difficulty is explicitely harder or even generate whole floors with optional biomes (this is kinda what STS2 is doing with alternate acts).
+
+This way, each group of rooms has a story in itself, and balancing the entire layer is easier to break down since you can think of "this group of 4 rooms has to be balanced" instead of thinking about the entire layer as one piece.
 
 #### Do's and Don'ts of Biomes
 
@@ -48,7 +61,7 @@ The exploration graph this system produces is **hopefully more structured than w
 
 I'm not too sure yet, but that's basically because I don't like the alarm system in itself.
 
-I believe the alarm system has the _intent_ to be a balance mechanism. I think it doesn't accomplish it in a fun way, and it feels like a system _appended_ to the game, rather than a system that elevates and interacts with the game in a thought-provoking way.
+I believe the alarm system has the _intent_ to be a balance mechanism. I think it doesn't accomplish it in a fun way, and it feels like a system _appended_ to the game, rather than a system that elevates and interacts with the game in a thought-provoking way, and I don't currently have any ideas on how I'd use the alarm system in a better way.
 
 ## Brainstorming Biomes
 
@@ -106,6 +119,13 @@ Each biome has an overall weight for "how good it generally is" called `base_wei
 
 Each room layout has
 
+### Creating balanced Encounters
+
+Each `base_enemy` and each `peripheral` has an associated weight
+
+
+
+
 <!-- 
 **Layer 1** enemies are taxing decks in the following ways:
 
@@ -121,16 +141,3 @@ Each room layout has
 -->
 
 
-This way I believe we can create a more controllable exploration graph. You can hide important nodes deep in a biome because the biome itself is more linear in its progression.
-
-For instance:
-
-* Mod Biome Room 1 has two necessary fights and one optional fight guarding a protocol only node. Only has one exit to Room 2.
-* Room 2 has all optional fights, but each node is a specific benefit like extra health, driver, extra mana, etc. These fights are harder because of a watcher in the room that says "add 3 peripherals to each encounter"
-* Room 3 has a miniboss guarding a command node (node that gives the player an unlockable command for the run)
-
-the biome has a distinct floor, theme, watchers and nodes inside it, and it branches from the "main path".
-
-You could also have an optional biome where the final node is "layer boss starts the fight with 3 stun" or stuff like that. You can have challenge biomes where the difficulty is explicitely harder or even generate whole floors with optional biomes (this is kinda what STS2 is doing with alternate acts).
-
-This way, each group of rooms has a story in itself, and balancing the entire layer is easier to break down since you can think of "this group of 4 rooms has to be balanced" instead of thinking about the entire layer as one piece.
